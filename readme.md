@@ -25,10 +25,9 @@ This project is a **simple weather web application** built using **Python Flask*
 ## 🚀 How to Run
 
 1. **Clone the repo**
-
-```bash
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
+   '''bash
+   git clone https://github.com/your-username/weather-app.git 
+   cd weather-app
 
 2. **Install Dependencies**  
    ```sh
