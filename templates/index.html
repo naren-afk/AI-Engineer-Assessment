@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <h1 class="app-title">🌦 Weather Dashboard</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Enter city..." />
+      <button onclick="searchWeather()">Search</button>
+    </div>
+    <div id="weatherInfo" class="weather-output">
+      {% if error %}
+        <p>{{ error }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
