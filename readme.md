@@ -25,16 +25,18 @@ This project is a **simple weather web application** built using **Python Flask*
 ## 🚀 How to Run
 
 1. **Clone the repo**
-   '''bash
+   ```sh
+   
    git clone https://github.com/naren-afk/AI-Engineer-Assessment.git
+
    cd weather-app
 
-2. **Install Dependencies**  
+3. **Install Dependencies**  
    ```sh
    pip install -r requirements.txt
-3. **Run the Application**  
+4. **Run the Application**  
    ```sh
    python app.py  
- 4. **Access the Frontend Dashboard**  
+ 5. **Access the Frontend Dashboard**  
   
    Open your browser and navigate to  ``` http://127.0.0.1:5000/```
